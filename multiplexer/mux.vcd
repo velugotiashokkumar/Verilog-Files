@@ -1,0 +1,100 @@
+$date
+	Fri Jan 19 10:32:40 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module mux_tb $end
+$var wire 1 ! o $end
+$var reg 8 " i [7:0] $end
+$var reg 3 # s [2:0] $end
+$scope module DUT $end
+$var wire 1 $ a1 $end
+$var wire 1 % a2 $end
+$var wire 1 & a3 $end
+$var wire 1 ' a4 $end
+$var wire 1 ( a5 $end
+$var wire 1 ) a6 $end
+$var wire 1 * a7 $end
+$var wire 1 + a8 $end
+$var wire 8 , i [7:0] $end
+$var wire 1 ! o $end
+$var wire 3 - s [2:0] $end
+$var wire 1 . s0 $end
+$var wire 1 / s1 $end
+$var wire 1 0 s2 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+10
+1/
+1.
+b0 -
+b10101010 ,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+b0 #
+b10101010 "
+0!
+$end
+#10
+1!
+0.
+1%
+b1 #
+b1 -
+#20
+0!
+1.
+0%
+0/
+b10 #
+b10 -
+#30
+1!
+0.
+1'
+b11 #
+b11 -
+#40
+0!
+1.
+1/
+0'
+00
+b100 #
+b100 -
+#50
+1!
+0.
+1)
+b101 #
+b101 -
+#60
+0!
+1.
+0)
+0/
+b110 #
+b110 -
+#70
+1!
+0.
+1+
+b111 #
+b111 -
+#80

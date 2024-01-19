@@ -1,0 +1,111 @@
+$date
+	Fri Jan 19 10:46:26 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module jff_tb $end
+$var wire 1 ! q_bar $end
+$var wire 1 " q $end
+$var reg 1 # clk $end
+$var reg 1 $ j $end
+$var reg 1 % k $end
+$var reg 1 & rst $end
+$scope module DUT $end
+$var wire 1 # clk $end
+$var wire 1 $ j $end
+$var wire 1 % k $end
+$var wire 1 & rst $end
+$var reg 1 " q $end
+$var reg 1 ! q_bar $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+x&
+0%
+0$
+0#
+x"
+x!
+$end
+#5000
+1#
+#10000
+0"
+0#
+1%
+1&
+#11000
+1!
+#15000
+1#
+#20000
+0#
+0%
+1$
+#25000
+1#
+#30000
+1"
+0#
+1%
+0&
+#31000
+0!
+#35000
+0"
+1#
+#36000
+1!
+#40000
+0#
+0%
+0$
+#45000
+1#
+#50000
+0#
+1%
+#55000
+1#
+#60000
+0#
+0%
+1$
+#65000
+1"
+1#
+#66000
+0!
+#70000
+0#
+1%
+#75000
+0"
+1#
+#76000
+1!
+#80000
+0#
+#85000
+1"
+1#
+#86000
+0!
+#90000
+0#
+#95000
+0"
+1#
+#96000
+1!
+#100000
+0#
